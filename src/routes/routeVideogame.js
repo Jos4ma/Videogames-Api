@@ -1,6 +1,6 @@
 
 const router = require("express").Router()
-const { getDetail, joinAllDates, postVideogame, deleteVideogame, getAllGenres } = require("../controllers/controllers")
+const { getDetail, joinAllDates, postVideogame, deleteVideogame, getAllGenres } = require("controllers")
 
 
 
