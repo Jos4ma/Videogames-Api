@@ -183,7 +183,7 @@ const joinAllDates = async (req, res) => {
 
   module.exports = {
     joinAllDates,
-    // getApiInfoAll,
+    //getApiInfoAll,
     postVideogame, 
     getDetail,
     deleteVideogame,
