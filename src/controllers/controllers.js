@@ -95,9 +95,9 @@ const getDbInfoAll = async () => {
 
 const getAllPokemon = async () => {
         const apiInfo = await getApiVideogames();
-        const dbInfoBig = await getDbInfoAll();
-        const totalInfo = dbInfoBig.concat(apiInfo);
-        return totalInfo;
+        //const dbInfoBig = await getDbInfoAll();
+        //const totalInfo = dbInfoBig.concat(apiInfo);
+        return apiInfo;
   };
 
 
