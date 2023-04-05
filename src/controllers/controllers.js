@@ -23,7 +23,7 @@ async function  pInfo(videogame)  {
 const getApiVideogames = async (req, res) => {
 	try {
 		let endpoints = [
-			    axios.get(`https://api.rawg.io/api/games?key=${API_KEY}&page=${1}`),
+			    //axios.get(`https://api.rawg.io/api/games?key=${API_KEY}&page=${1}`),
 			     axios.get(`https://api.rawg.io/api/games?key=246561ca3d1b44d1877ac14e4ffc9ef5&page=2`),
 			     axios.get(`https://api.rawg.io/api/games?key=246561ca3d1b44d1877ac14e4ffc9ef5&page=3`),
 			     axios.get(`https://api.rawg.io/api/games?key=246561ca3d1b44d1877ac14e4ffc9ef5&page=4`),
